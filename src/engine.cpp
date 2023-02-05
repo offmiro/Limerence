@@ -10,6 +10,4 @@ int main(void)
     while (win->isRunning()){
         win->renderWindow();
     }
-
-    win->deleteWindow();
 }
