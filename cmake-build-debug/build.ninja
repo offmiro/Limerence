@@ -67,6 +67,13 @@ build CMakeFiles/Limerence.dir/src/math/vector2.cpp.o: CXX_COMPILER__Limerence_D
   OBJECT_DIR = CMakeFiles/Limerence.dir
   OBJECT_FILE_DIR = CMakeFiles/Limerence.dir/src/math
 
+build CMakeFiles/Limerence.dir/src/math/raycast.cpp.o: CXX_COMPILER__Limerence_Debug /Users/user/Desktop/Limerence/src/math/raycast.cpp || cmake_object_order_depends_target_Limerence
+  DEP_FILE = CMakeFiles/Limerence.dir/src/math/raycast.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fcolor-diagnostics -F/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks  -std=gnu++17
+  INCLUDES = -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks
+  OBJECT_DIR = CMakeFiles/Limerence.dir
+  OBJECT_FILE_DIR = CMakeFiles/Limerence.dir/src/math
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Limerence
@@ -75,7 +82,7 @@ build CMakeFiles/Limerence.dir/src/math/vector2.cpp.o: CXX_COMPILER__Limerence_D
 #############################################
 # Link the executable Limerence
 
-build Limerence: CXX_EXECUTABLE_LINKER__Limerence_Debug CMakeFiles/Limerence.dir/src/engine.cpp.o CMakeFiles/Limerence.dir/src/render/window.cpp.o CMakeFiles/Limerence.dir/src/math/vector2.cpp.o | /usr/local/lib/libglfw.3.3.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /usr/local/lib/libGLEW.2.2.0.dylib
+build Limerence: CXX_EXECUTABLE_LINKER__Limerence_Debug CMakeFiles/Limerence.dir/src/engine.cpp.o CMakeFiles/Limerence.dir/src/render/window.cpp.o CMakeFiles/Limerence.dir/src/math/vector2.cpp.o CMakeFiles/Limerence.dir/src/math/raycast.cpp.o | /usr/local/lib/libglfw.3.3.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /usr/local/lib/libGLEW.2.2.0.dylib
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  /usr/local/lib/libglfw.3.3.dylib  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  /usr/local/lib/libGLEW.2.2.0.dylib  -Xlinker -framework -Xlinker OpenGL
   LINK_PATH = -F/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks
