@@ -1,6 +1,6 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
-#include "render/window.h"
+#include "core/window.h"
 
 int main(void)
 {

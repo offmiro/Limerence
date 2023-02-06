@@ -1,7 +1,12 @@
 # ninja log v5
+8	854	1675637661934432214	CMakeFiles/Limerence.dir/src/render/window.cpp.o	71b26fee3679e642
+9	201	1675637661281398813	CMakeFiles/Limerence.dir/src/math/raycast.cpp.o	18851e4e70d8a134
+854	956	1675637662038986252	Limerence	a9c36fdc7d55d0c3
+8	203	1675637661281454197	CMakeFiles/Limerence.dir/src/math/vector2.cpp.o	86213228c33f8740
+4	795	1675637661872946383	CMakeFiles/Limerence.dir/src/engine.cpp.o	7ddd523ae3e5fedc
+0	106	1675671659875883017	build.ninja	fff38d9e74374b5d
 2	101	1675606827597691274	CMakeFiles/Limerence.dir/main.cpp.o	dbe796f1bc056ed3
-0	106	1675636204343322166	build.ninja	fff38d9e74374b5d
-6	1071	1675635465229797746	CMakeFiles/Limerence.dir/src/engine.cpp.o	7ddd523ae3e5fedc
-11	195	1675634500000519424	CMakeFiles/Limerence.dir/src/math/vector2.cpp.o	86213228c33f8740
-1118	1243	1675635465411404161	Limerence	a3bf574e8333d70c
-7	1118	1675635465279559152	CMakeFiles/Limerence.dir/src/render/window.cpp.o	71b26fee3679e642
+1	179	1675671659875883017	build.ninja	fff38d9e74374b5d
+3	917	1675671660809659563	CMakeFiles/Limerence.dir/src/engine.cpp.o	7ddd523ae3e5fedc
+3	925	1675671660819705254	CMakeFiles/Limerence.dir/src/core/window.cpp.o	59713970f05f80d2
+925	1032	1675671660929888652	Limerence	3972deb4077746aa
