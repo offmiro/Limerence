@@ -26,6 +26,7 @@ void window::initWindow() {
 }
 
 void window::renderWindow() {
+
     glfwPollEvents();
     glfwSwapBuffers(glfwin);
 }
